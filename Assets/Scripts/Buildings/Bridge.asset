@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb53431d4a111d848a19c90c0f9ea212, type: 3}
+  m_Name: Bridge
+  m_EditorClassIdentifier: 
+  Type: 3
+  AvailableToUse: 0
+  AllComponents:
+  - Component: {fileID: 11400000, guid: 4d53ccdcb74928a438817c13e3f50511, type: 2}
+    ComponentCount: 50
+  - Component: {fileID: 11400000, guid: 21fbd23a5371bf04581687be1047fdfe, type: 2}
+    ComponentCount: 40
+  - Component: {fileID: 11400000, guid: 43917b5dbd40bae498add4833b19094f, type: 2}
+    ComponentCount: 10
+  TimeToBuild: 90
+  TimeToCraft: 0
+  inNodes: []
+  outNodes: []
+  MaxItems: 0
